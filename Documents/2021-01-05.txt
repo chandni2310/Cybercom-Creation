@@ -1,2 +1,59 @@
-github
-git
+--------------------------------------Introduction of Git and Github----------------------------------------------------
+
+First of all learned about what is Git: It is a version control system which hels us to manage and monitor all our files and folders and also allows us to share it among our team members.
+CVS, SVN are other example of version control tool.
+
+After installtion of Git on laptop, I generated a new SSH key which provides us security, someone having SSH key can only modify the code.
+It uses SHA1 hash algorithm for key generation. To add extra security we can add passphrase to SSH key, so that if one get the SSh key, he cannot access your documents.
+
+Repository:
+Repository can be considerd as a folder where one will have all the files of your project with different versions.
+There are 2 type of repository:
+			1. Bare Repository: where no one can add or modify any file
+			2. Non bare Repository: where any one can modify or make any changes and alos can create new versions
+
+
+Branch: branch is basically an indepedent workplace where one can work on diiferent  task of same project.
+
+Commands:
+To  intialize a repository
+	git init--it will create .git folder will contains all necessary details of repository.
+For configuration of email and name
+	git config --global user.name="chandni2310"
+	git config --global user.email="17it060@charusat.edu.in"
+To add file to staging area
+	git add l1.txt
+To add all files
+	git add .
+To clone repository to local computer
+	git clone url
+Checking status  
+	git status--it will return the status which includes any new or modified file in repository
+To commit the files
+	git commit -m "adding files"
+	git commit -a
+Push command
+	git push origin main--it will send any changes made on local machine to repository
+	git push all--send changes made by all branches to repository
+Fetch 
+	git fetch--it retrives commits, references and files from remote repository
+	               it let you see what everyone else has done in repository
+Checkout
+	git checkout [branchname]--checkout basically means switching between different branches
+Merge
+	git merge [branchname]
+Rollback/Revert
+	git reset --hard--to rollback everything until last commit
+To check the log history
+	git log
+	git log [filename]--to check log of certain file or directory
+For help
+	git command --help
+	
+	
+
+
+
+
+
+ 
