@@ -2,6 +2,21 @@ Started with  practising previous day's commands
 learned we can add all file using -A flag--git add -A
 Explored and learned about rebase: It is also kind of merging
                                    It is used to make linaer sequence of commits.
-                                   Benefit of using rebase is that it gives much cleaner project history.
-  
-Watched tutorial about git on youtube--where it explained about git work flow
+                                   Benefit of using rebase is that it gives much cleaner project history
+                                   
+Learned difference between git merge and git rebase--Compared to merge, rebase dosen't create any extra commits.
+While implementing rebase command got error can't peform rebase, after seaching on google I got the solution.
+Watched tutorial about git on youtube--where it explained about git work flow.
+Performed revert command to go back to last commit as told by sir--git revert -m 1 [commit code]5b6b61a5e93fe317d7e2d07473d12dbc52c67338
+
+Then experimented with different commands to check log: 
+                                                        git log --graph-->It displays all commits in form of graph,tree like structure
+                                                        git log --after="20121-01-04"-->to filter log after specific date
+                                                        git log author="Chandni2310"--> to check log done by particular user/author
+                                                        
+Learned about reset command: to move location of head to specified commit
+                                                        git reset --hard HEAD-->to go back to HEAD
+                                                        git reset --hard HEAD^ --> to go back to commit before HEAD
+At last done merge-commit of two different branches and then check the loacation of head if it is same or not after merge and commit as discussed in the meeting.
+                                                        
+
