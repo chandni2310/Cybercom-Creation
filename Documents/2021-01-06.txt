@@ -14,7 +14,7 @@ Then experimented with different commands to check log:
                                                         git log --after="20121-01-04"-->to filter log after specific date
                                                         git log author="Chandni2310"--> to check log done by particular user/author
                                                         
-Learned about reset command: to move location of head to specified commit
+ Also Learned about reset command: to move location of head to specified commit 
                                                         git reset --hard HEAD-->to go back to HEAD
                                                         git reset --hard HEAD^ --> to go back to commit before HEAD
 At last done merge-commit of two different branches and then check the loacation of head if it is same or not after merge and commit as discussed in the meeting.
