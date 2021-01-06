@@ -1,0 +1,7 @@
+Started with  practising previous day's commands
+learned we can add all file using -A flag--git add -A
+Explored and learned about rebase: It is also kind of merging
+                                   It is used to make linaer sequence of commits.
+                                   Benefit of using rebase is that it gives much cleaner project history.
+  
+Watched tutorial about git on youtube--where it explained about git work flow
