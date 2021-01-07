@@ -1,0 +1,3 @@
+studied about tags in git
+tags are used to refer to specific points in history for our repository or data
+basically tags are done to mark release points
