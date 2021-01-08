@@ -1,0 +1,20 @@
+Started the day by watching videos from given link.
+In videos topics covered were:
+
+Introduction to javascript, it's importance and hoe it differes from html and css.
+HTML used for-- display content
+CSS usd for-- styling
+Javascript used for--dynamic manipulations
+
+Then learned how to make inline and external script and also practised it.
+Learned about data types in javascript. There are 5 data types:
+				1. number
+				2. string
+				3. boolean
+				4. undefined
+				5. null
+Types of operators,operatord precedence and variable mutation in javascript. In javascript we don't need to define data types it automatically does that.
+Performed the challenges and practice exercise as given. 
+
+
+		
