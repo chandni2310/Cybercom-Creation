@@ -1,0 +1,40 @@
+.colu {
+    
+    margin-top: 50px;
+    float: left;
+    width: 25%;
+}
+.black
+{
+    display:flex;
+    text-align: center;
+    height: 315px;
+    width:215px;
+    margin: auto;
+    align-items: center;
+    background-color: black;
+}
+
+.text{
+    
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.image
+{ 
+    height: 30px;
+    width:250px;
+    margin: auto;
+    display:block;
+    text-align: center;
+    color: black
+    
+}
+.para
+{
+    text-align: center;
+    
+
+}
