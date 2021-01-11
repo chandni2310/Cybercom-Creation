@@ -1,0 +1,36 @@
+.container{
+	box-sizing: border-box;
+	text-align: center;
+	margin:auto;
+}
+
+.col{
+	width: 250px;
+	height: 350px;
+	padding: 6px;
+	display: inline-block;
+	margin-right: 15px;
+	box-shadow: 0 4px 8px 0;
+	font-family: "Georgia", Times, serif;
+}
+
+.col img {
+	height: 22%;
+	width: 22%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+	border-radius: 50%;
+
+}
+
+.last{
+	align:center;
+	color: grey;
+}
+.a1{
+		font-family: "Georgia", Times, serif;
+		color: grey;
+		align:center;
+
+}
