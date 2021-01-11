@@ -1,0 +1,13 @@
+Started the day by watching videos given in the link
+Learned about  :if-else statements
+                          boolean logic--AND, OR and NOT operations
+                          Ternary operator-it can be used same as if-else statements and also helps to reduce line of code
+                          Switch statement
+	         Truthy and falsy value--which helps us to know whether a variable is defined or not
+                           Functions--function is used so that we don't need to write same code again and again. So basically function help us to reuse code.
+                           Arrays
+
+Then in meeting madam teached us about form, different attribute and different methods of form
+Learned about name and id attribute in form.
+It is best practice to use name and id in every tag and id needs to be unique so it is easy to fectch and dosen't create conflict.
+	
