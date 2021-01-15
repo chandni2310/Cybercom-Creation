@@ -1,0 +1,19 @@
+Watched the videos given in the link:
+Objects, inheritence in objects, prototype chain, primitive vs objects and function class
+
+Learned how to create instance from constructor so that we don't need to create object for each one
+Then learned how we can inherit using prototype function.
+Show various properties of Object such as:
+			toString()
+			hasownProperty()
+			valueof()
+			is prototypeof()
+Difference between objects and primitive data types:
+-->primitive data contains actual value while object contains reference(i.e memory address)
+
+Object.create()-->it is another way to create object
+	           it creates an object that  directly inherits  the argument passed 
+Then in meeting madam explained about how to check whether object or object property is null or not.
+
+
+ 
