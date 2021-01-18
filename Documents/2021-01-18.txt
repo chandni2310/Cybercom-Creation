@@ -1,0 +1,23 @@
+Watched videos provided in today's link
+Arrow function:Basically arrow function is usd to write function in easy way, less line of code compared to traditional functions
+In arrow function we can access current index,current element and array itself.
+Arrow function don't have their own 'this' keyword. They use 'this' keyword of function they are written in. Hence, they have 'lexical this' keyword
+
+Array in ES6:
+various methods are introduced in ES6 for arrays.
+Array.from(), find(),findIndex()
+Array.from()-->it converts objects and iterable values into array structure.
+
+Learned about map() function
+it creates a new array as per provided condition. it dosen't change original value, it creates copy of resultant array
+
+Destructing
+Destructing is used to return different value of array or objects.
+for e.g. const obj={
+	name2:'Josh',
+	lastName:'Twain'
+};
+const{name2,lastName}=obj;  //It will create different independent values for name2 and lastName
+
+In meeting learned about objects and how to access methods.
+Difference between simple for and for-in loop:-->simple for loop is not sync while for-in loop is async
