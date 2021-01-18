@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML form practice</title>
+</head>
+<body>
+	<form width="400px">
+		<fieldset>
+			<legend>Your address </legend>
+			<label for="fname">First Name &nbsp &nbsp&nbsp &nbsp&nbsp </label>
+			<input type="text" name="fname"><br><br>
+			<label for="lname">Last Name &nbsp &nbsp&nbsp &nbsp&nbsp </label>
+			<input type="text" name="lname"><br><br>
+			<label for="street">Street &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </label>
+			<input type="text" name="street"><br><br>
+			<label for="city">City &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label>
+			<input type="text" name="city"><br>
+		</fieldset>
+		<fieldset>
+			<legend>Additional Information</legend>
+			<label for="bio">Biography</label>
+			<textarea name="bio" rows="4" cols="20"></textarea><br><br>
+			<label for="im">Image</label>
+			<input type="file" name="im"><br><br>
+			<label for="age">Age Group</label>
+			<select name="age">
+				<option value="0 to 9 years">0 to 9 years</option>
+				<option value="10 to 25 years">10 to 25 years</option>
+				<option value="26 to 55 years">26 to 55 years</option>
+			</select><br>
+		</fieldset>
+		<fieldset>
+			<legend>Interests</legend>
+			<label for="hobbies">Hobbies</label>
+			<select name="hobbies" size="4">
+				<option value="Playing Soccer">Playing Soccer</option>
+				<option value="Dancing">Dancing</option>
+				<option value="Gardening">Gardening</option>
+				<option value="Watching movies">Watching movies</option>
+
+
+			</select><br><br>
+			<label for="cars">Favourite Car?</label>
+			<select id="cars" name="cars">
+  				<option value="volvo">Volvo</option>
+  				<option value="saab">Saab</option>
+  				<option value="fiat">Fiat</option>
+  				<option value="audi">Audi</option>
+			</select><br><br>
+			  <label for="transport">Favourite Transport?</label>
+  				<select name="transport" size="4">
+    				<optgroup label="Ground">
+      					<option value="train">Train</option>
+      					<option value="bus">Bus</option>
+    				</optgroup>
+    				<optgroup label="Water">
+      					<option value="boat">Boat</option>
+      					<option value="Ship">Ship</option>
+    				</optgroup>
+  				</select>
+  					<br><br>
+
+		</fieldset>
+		
+
+		
+	</form>
+	<a href="submit.html">
+			<button>Submit</button>
+	</a>
+	<button>Reset</button>
+	
+
+</body>
+</html>
