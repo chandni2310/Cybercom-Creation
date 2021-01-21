@@ -4,7 +4,7 @@
 	<title>Registration form</title>
 	<style type="text/css">
 		div{
-			
+
 		}
 	</style>
 </head>
@@ -17,22 +17,24 @@
 			<input type="email" name="admin_email" id="mail" placeholder="Email" required=""><br>
 			<input type="password" name="admin_pass" id="p_word" placeholder="Password" required=""><br>
 			<input type="password" name="admin_cpass" id="c_word" placeholder=" Confirm Password" required=""><br>
-			<select name="city" >
+			<select name="city" id="city" >
 				<option value="select_city">Select city</option>
 				<option value="Baroda">Baroda</option>
 				<option value="Ahmedabad">Ahmedabad</option>
 				<option value="Nadiad">Nadiad</option>
 			</select><br>
-			<select name="state" >
+			<select name="state" id="state" >
 				<option value="select_city">Select State</option>
 				<option value="Gujarat">Gujarat</option>
 				<option value="Maharashtra">Maharashtra</option>
 				<option value="rajasthan">Rajasthan</option>
 			</select><br>
-			<input type="checkbox" name="terms" required=""><span>Terms & Conditions</span>
+			<input type="checkbox" name="terms" id="terms" required=""><span>Terms & Conditions</span>
 		</form>
-		<button type="button" name="admin_register">Register</button>
+		<button type="button" name="admin_register" id="btn_register" onclick="checkRegister()">Register</button>
 	</div>
+
+	<script type="text/javascript" src="regiser1.js"></script>
 
 </body>
 </html>
