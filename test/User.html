@@ -32,50 +32,20 @@
 						<td></td>
 						<td></td>
 						<td></td>
-						<td><button type="button" id="add-user-btn">Add User</button></td>
+						<td><button type="button" id="add-user-btn" onclick="addUser()">Add User</button></td>
 					</tr>
 				</table>
 				
 			</div>
 			<div class="birthday">
 				<h3>User list</h3>
-				<table>
-					<tr>
-						<th>Name</th>
-						<th>Email</th>
-						<th>Password</th>
-						<th>Birth Date</th>
-						<th>Age</th>
-						<th>Actions</th>
-					</tr>
-					<tbody>
-						<tr>
-							<td>Chandni Parikh</td>
-							<td>abc@gmail.com</td>
-							<td>1234</td>
-							<td>21/01/1999</td>
-							<td>22</td>
-							<td>
-								<a href="" id="edit">Edit</a>
-								<a href="" id="delete">Delete</a>
-							</td>
-						</tr>
-						<tr>
-							<td>Harshil Parikh</td>
-							<td>xyz@gmail.com</td>
-							<td>7890</td>
-							<td>06/05/2007</td>
-							<td>15</td>
-							<td>
-								<a href="" id="edit">Edit</a>
-								<a href="" id="delete">Delete</a>
-							</td>
-						</tr>
-					</tbody>
-				</table>
+				<div id="user_table"></div>
 			</div>
 
 		</div>
 	</div>
+
+
+	<script type="text/javascript" src="User.js"></script>
 </body>
 </html>
