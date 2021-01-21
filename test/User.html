@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashboard</title>
+</head>
+<body>
+	<div class="content">
+		<div class="navbar">
+			<h4>Hello<span id="ad_name">[name]</span></h4>
+			<div class="links">
+				<a href="dashboard.html">Dashbpard</a><br><br>
+				<a href="User.html">Users</a><br><br>
+				<a href="UserSession.html">Login Session</a><br><br>
+				<a href="" id="logout">Logout</a>
+
+			
+		</div>
+	</div>
+	<div class="side">
+		<div class="d_content">
+			<h3>Add User</h3>
+		</div>
+			<div class="details">
+				<table>
+					<tr>
+						<td><input type="text" name="name" id="userName" placeholder="Name"></td>
+						<td><input type="email" name="email" id="userEmail" placeholder="Email"></td>
+						<td><input type="password" name="password" id="userPassword"></td>
+						<td><input type="date" name="bdate" id="userBdate"></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td><button type="button" id="add-user-btn">Add User</button></td>
+					</tr>
+				</table>
+				
+			</div>
+			<div class="birthday">
+				<h3>User list</h3>
+				<table>
+					<tr>
+						<th>Name</th>
+						<th>Email</th>
+						<th>Password</th>
+						<th>Birth Date</th>
+						<th>Age</th>
+						<th>Actions</th>
+					</tr>
+					<tbody>
+						<tr>
+							<td>Chandni Parikh</td>
+							<td>abc@gmail.com</td>
+							<td>1234</td>
+							<td>21/01/1999</td>
+							<td>22</td>
+							<td>
+								<a href="" id="edit">Edit</a>
+								<a href="" id="delete">Delete</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Harshil Parikh</td>
+							<td>xyz@gmail.com</td>
+							<td>7890</td>
+							<td>06/05/2007</td>
+							<td>15</td>
+							<td>
+								<a href="" id="edit">Edit</a>
+								<a href="" id="delete">Delete</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>

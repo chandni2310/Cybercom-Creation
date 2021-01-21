@@ -10,11 +10,10 @@ function checkRegister() {
 	var register=document.getElementById('btn-register').value;
 
 	if(register){
-		if(a_password===a_confirmpassword){
-			console.log('same password');
+		
 			if(localStorage.getItem('adminDetails')){
 				alert('Admin has already registered');
-				window.open(login.html)''
+				window.open("login.html");
 			}
 			else{
 				var aDetails={
@@ -25,9 +24,9 @@ function checkRegister() {
 					state:a_state
 				}
 				localStorage.setItem('adminDetails',JSON.stringify(aDetails));
-				window.open(login.html);
+				window.open("login.html");
 			}
-		}
+		
 
 	}
 

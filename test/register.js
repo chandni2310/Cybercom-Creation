@@ -1,9 +1,11 @@
-var email=document.getElementbyId('mail').value;
-var password=document.getElementById('p_word').value;
-var login=document.getElementbyId('login').value;
-var register=documnet.getElementbyId('register').value;
 
-login.addEventListener('click',function(){
+var email=document.getElementById('mail').value;
+var password=document.getElementById('p_word').value;
+var login=document.getElementById('login').value;
+var register=document.getElementById('register').value;
+
+
+function checkLogin(){
 	if(localStorage.getItem(adminDetails)){
 		var ad_arr=[];
 		ad_arr=JSON.parse(localStorage.getItem('adminDetails'));
@@ -36,9 +38,14 @@ login.addEventListener('click',function(){
 		window.open('register.html');
 	}
 
-});
 
-register.addEventListener('click',function(){
+}
+
+
+
+
+function checkRegister(){
 	window.open("Registration.html");
 
-});
+}
+
