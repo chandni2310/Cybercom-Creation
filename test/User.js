@@ -34,6 +34,7 @@ if(user_d !=null){
  	result+= "<th> Password </th>";
  	result += "<th> Date of Birth </th>";
  	result += "<th> Age </th>";
+ 	reuslt +="<th>Action<th>";
  	result += "</tr>";
 
  	for (var i=0;i<user_d.length;i++){
@@ -45,6 +46,8 @@ if(user_d !=null){
  			result += "<td>" + user_d[i].password + "</td>";
  			result+= "<td>" + user_d[i].bdate + "</td>" ;
  			result+= "<td>" + age + "</td>";
+ 			reuslt+="<td>";
+ 			reuslt+="<input type='button' id='edit' name='edit' value='EDIT'> <input type='button' id='delete' name='delete' value='DELETE'> ";
  			}
 
  			result+="</tr>";
