@@ -1,0 +1,51 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	position: relative;
+	color: #B1BC36;
+	height: 95vh;
+}
+
+.container{
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.hb{
+	background-color: #DE8704;
+}
+
+tbody{
+	background-color: blue;
+}
+
+td{
+	padding: 10px;
+}
+
+input[type=submit] {
+    padding: 10px 20px;
+    color: white;
+    background-color: #62AF5E;
+}
+
+input[type=reset] {
+    padding: 10px 20px;
+    color: white;
+    background-color: #D9544F;
+}
+
+.error{
+	color: red;
+	font-size: 20px;
+}
+
+

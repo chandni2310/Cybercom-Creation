@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	position: relative;
+	background-color: yellow;
+	height: 95vh;
+
+}
+
+.container{
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+    
+	}
+
+fieldset {
+    background-color: #00FF66;
+    padding: 30px;
+}
+
+fieldset legend {
+    font-size: 2rem;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+}
+
+.error{
+	color:red;
+	font-size:15px;
+}
+
+
+
