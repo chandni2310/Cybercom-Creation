@@ -95,7 +95,7 @@ function input_data($data) {
 
 
 
-	<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST" onsubmit="return (validate());"  name="user_form">
+	<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST" onsubmit="return (validate());"  name="user_form"  enctype="multipart/form-data">
 	<table border="1" align="center">
 		<tr>
 			<td colspan="2" style="color:red; background-color: LemonChiffon"><center><h2>User Form</h2></center></td>
@@ -144,7 +144,7 @@ function input_data($data) {
 			<span id="err_fname" class="error">*<?php echo $ageErr;?></span></td>
 		</tr>
 		<tr>
-			<td colspan="2"><center><input type="file" name="myfile"></center></td>
+			<td colspan="2"><center><input type="file" name="file"></center></td>
 		</tr>
 		<tr>
 			<td colspan="2"><center><input type="reset" name="reset" value="RESET"> <input type="submit" name="submit" value="SUBMIT"></center></td>
@@ -183,6 +183,45 @@ if(isset($_POST['submit'])) {
 	else {
 	echo 'Fill all the details';
 }
+
+
+$conn=mysqli_connect('localhost','root','','cybercom_creation');
+
+if(!$conn){
+	die('Error'.mysqli_connect_error());
+} else {
+	echo 'Connected successfully';
+	echo "<br>";
+}
+
+$file = $_FILES['file'];
+$file_name = $file['name'];
+$file_type = $file ['type'];
+$file_size = $file ['size'];
+$file_path = $file ['tmp_name'];
+
+if($file_name!="" && ($file_type="image/jpeg"||$file_type="image/png"||$file_type="image/gif")&& $file_size<=614400)
+
+if(move_uploaded_file ($file_path,'images/'.$file_name))//"images" is just a folder name here we will load the file.
+$query=mysqli_query($conn,"insert into form1 values(NULL,'$name','$password','$address','$games','$gender','$age','$file_name')");//mysql command to insert file name with extension into the table. Use TEXT datatype for a particular column in table.
+ 
+if($query==true)
+{
+    echo "File Uploaded";
+}
+
+
+$result=  mysqli_query($conn,"SELECT File FROM form1");
+$row=  mysqli_fetch_array($result, MYSQLI_ASSOC);
+echo "<img src='images/".$row['File']."' height = '130px' width = '130px'>";
+
+
+
+
+
+
+
+
 }
 
 

@@ -1,0 +1,45 @@
+.box{
+	padding: 20px;
+	background-color: #ffe5b4;
+	width: 255px;
+}
+.error{
+	color: red;
+}
+
+.header{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 20px;
+	width: 255px;
+	color: #ffffff;
+	height: 30px;
+	background-color: #FF7F4F;
+}
+input{
+	margin-left: 17px;
+	width: 200px;
+	height: 30px;
+	margin-top: 10px;
+	border-radius: 2px;
+	border-color: #FFCBA4;
+	
+}
+.btn-send{
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	color: #8f7000;
+	height: 50px;
+	text-align: center;
+	padding: 20px;
+	background-color: #ffc800;
+	width: 294px;
+	border: none; 
+}
+textarea{
+	margin-left: 17px;
+	width: 200px;
+	height: 50px;
+	margin-top: 10px;
+	border-color: #FFCBA4;
+}
