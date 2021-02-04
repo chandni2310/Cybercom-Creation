@@ -1,0 +1,4 @@
+<?php 
+echo 'registraion successfully';
+
+ ?>
